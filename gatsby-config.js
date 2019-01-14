@@ -5,6 +5,13 @@ module.exports = {
     description: 'Greaaat, le réseau de freelances spécialisés dans les métiers du web en qui vous pouvez avoir confiance',
   },
   plugins: [
-    'gatsby-plugin-react-helmet'
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'prestations',
+        path: `${__dirname}/src/data/prestations`
+      }
+    }
   ]
 }
