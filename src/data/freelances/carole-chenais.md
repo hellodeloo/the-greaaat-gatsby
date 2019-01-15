@@ -15,6 +15,7 @@ slug: carole-chenais
 seoTitle: Spécialiste en communication
 seoDescription: De la stratégie éditoriale à la conception de visuels en passant par la création de sites, je vous aide à booster votre activité.
 ---
+
 **La communication au cœur de vos projets !**
 De la stratégie éditoriale à la conception de visuels en passant par la création de sites, je vous aide à booster votre activité.
 
