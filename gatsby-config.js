@@ -12,6 +12,14 @@ module.exports = {
         name: 'prestations',
         path: `${__dirname}/src/data/prestations`
       }
-    }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'freelances',
+        path: `${__dirname}/src/data/freelances`
+      }
+    },
+    'gatsby-transformer-remark'
   ]
 }
