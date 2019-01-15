@@ -1,18 +1,20 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-export default () => (
+export default ({ subFooter }) => (
   <>
-    <div className="sub-footer txt-center">
-      <div className="wrapper">
-        <div className="hero">
-          <p className="h2-like">Vous avez des questions ?</p>
-          <p className="mbn">Besoin d'un freelance, de plus d'informations sur le collectif.<br/>N'hésitez pas, nous serons ravis de vous répondre.</p>
-        </div>
+    { subFooter &&
+      <div className="sub-footer txt-center">
+        <div className="wrapper">
+          <div className="hero">
+            <p className="h2-like">Vous avez des questions ?</p>
+            <p className="mbn">Besoin d'un freelance, de plus d'informations sur le collectif.<br/>N'hésitez pas, nous serons ravis de vous répondre.</p>
+          </div>
 
-        <Link to="/contact" className="btn">Contactez-nous</Link>
+          <Link to="/contact" className="btn">Contactez-nous</Link>
+        </div>
       </div>
-    </div>
+    }
 
     <footer className="footer wrapper" role="contentinfo">
       <div className="disp-t">

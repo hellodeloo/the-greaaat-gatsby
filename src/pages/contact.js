@@ -3,5 +3,5 @@ import React from 'react'
 import Page from '../components/Page'
 
 export default () => (
-  <Page bodyClass='contact' />
+  <Page bodyClass='contact' subFooter={false} />
 )
