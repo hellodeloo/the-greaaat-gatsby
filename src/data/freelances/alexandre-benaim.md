@@ -2,10 +2,10 @@
 title: Alexandre Benaim
 position: Développeur web et intégrateur
 city: Paris
-website: mailto:alexbenaim@gmail.com
+website: https://www.linkedin.com/in/alexandrebenaim/
 facebook: xxx
 twitter: xxx
-linkedin: xxx
+linkedin: https://www.linkedin.com/in/alexandrebenaim/
 dribble: xxx
 github: xxx
 viadeo: xxx

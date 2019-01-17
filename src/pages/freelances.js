@@ -58,7 +58,16 @@ export default ({ data: { allMarkdownRemark: { edges }}}) => {
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___slug] }) {
+    allMarkdownRemark(
+      sort: {
+        order: ASC,
+        fields: [frontmatter___slug]},
+        filter: {
+          fileAbsolutePath: {
+            regex: "/(freelances)/.*.md$/"
+          }
+        }
+    ) {
       edges {
         node {
           frontmatter {
