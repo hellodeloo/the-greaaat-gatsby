@@ -14,16 +14,16 @@ export default ({ current }) => (
 
       <nav className="nav" role="navigation">
         <ul className="nav__list">
-          <li className={`${current === 'le-reseau-de-freelances' ? 'is-active' : ''}`}>
+          <li className={getClasses(current, 'le-reseau-de-freelances')}>
             <Link to="/le-reseau-de-freelances">Le réseau</Link>
           </li>
-          <li className={`${current === 'freelances' ? 'is-active' : ''}`}>
+          <li className={getClasses(current, 'freelances')}>
             <Link to="/freelances">Les freelances</Link>
           </li>
           <li>
             <a href="https://blog.greaaat.com/">Le blog</a>
           </li>
-          <li className={`${current === 'contact' ? 'is-active' : ''}`}>
+          <li className={getClasses(current, 'contact')}>
             <Link to="/contact">Nous contacter</Link>
           </li>
         </ul>
@@ -31,3 +31,13 @@ export default ({ current }) => (
     </div>
   </header>
 )
+
+const getClasses = (current, slug) => {
+  let classes = ''
+
+  if (current === slug) {
+    classes += ' is-active'
+  }
+
+  return classes
+}
