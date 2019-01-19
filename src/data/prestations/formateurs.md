@@ -1,7 +1,7 @@
 ---
 title: Formateurs
 slug: formateurs
-freelances: [ "Adrian Tombu", "Alexandre Fouché", "Régis Millet" ]
+freelances: [ "Jérôme Béhuet", "Dorianne Wotton", "Julien Dubreuil", "Julien Tant", "Régis Millet", "Sébastien Fieloux" ]
 ---
 
 Les formateurs font des trucs super cools !

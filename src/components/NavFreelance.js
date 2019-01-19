@@ -18,9 +18,6 @@ export default ({ current }) => (
     <li className={getClasses(current, 'formateurs')}>
       <Link to="/prestation/formateurs">Formateurs</Link>
     </li>
-    <li className={getClasses(current, 'redaction-seo')}>
-      <Link to="/prestation/redaction-seo">Rédaction &amp; SEO</Link>
-    </li>
   </ul>
 )
 
