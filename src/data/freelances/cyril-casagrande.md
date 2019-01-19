@@ -1,5 +1,5 @@
 ---
-title: Cyril CASAGRANDE
+title: Cyril Casagrande
 position: Direction de création et direction artistique / UI/UX / Photographie
 city: Paris
 website: http://www.wildlabs.fr/book/projects
@@ -12,6 +12,6 @@ viadeo: xxx
 behance: xxx
 picture: cyril-casagrande.jpg
 slug: cyril-casagrande
-seoTitle: Cyril CASAGRANDE
+seoTitle: Cyril Casagrande
 seoDescription: Direction de création et direction artistique / UI/UX / Photographie
 ---

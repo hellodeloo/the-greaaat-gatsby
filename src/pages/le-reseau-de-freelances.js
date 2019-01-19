@@ -3,7 +3,7 @@ import React from 'react'
 import Page from '../components/Page'
 
 export default () => (
-  <Page bodyClass='le-reseau-de-freelances'>
+  <Page bodyClass="le-reseau-de-freelances" title="Le réseau de freelances">
     <div className="banner banner--big">
       <div className="wrapper">
         <p className="banner__subtitle">Greaaat</p>

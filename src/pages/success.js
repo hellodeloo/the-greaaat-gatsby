@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Page from '../components/Page'
 
 export default () => (
-  <Page bodyClass='contact'>
+  <Page bodyClass="contact" title="Message envoyé">
     <section className="banner">
       <div className="banner__text">
         <p className="banner__subtitle mtl">Succès !</p>

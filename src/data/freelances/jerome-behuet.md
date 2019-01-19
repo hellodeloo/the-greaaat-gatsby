@@ -1,6 +1,6 @@
 ---
 title: Jérôme Béhuet
-position: DÉVELOPPEUR FULL-STACK JAVASCRIPT / FORMATEUR
+position: Développeur full-stack Javascript / Formateur
 city: Bordeaux
 website: https://jbehuet.github.io/
 facebook: https://www.facebook.com/jerome.behuet
@@ -13,7 +13,7 @@ behance: xxx
 picture: jerome-behuet.jpg
 slug: jerome-behuet
 seoTitle: Jérôme Béhuet
-seoDescription: DÉVELOPPEUR FULL-STACK JAVASCRIPT / FORMATEUR
+seoDescription: Développeur full-stack Javascript / Formateur
 ---
 
 Développeur depuis 10 ans, j’ai travaillé sur une large palette de technos pour me concentrer depuis quelques années sur le JavaScript (Angular, React, VueJS, Polymer, NodeJS, etc.).

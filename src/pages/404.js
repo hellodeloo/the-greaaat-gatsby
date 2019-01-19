@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Page from '../components/Page'
 
 export default () => (
-  <Page bodyClass="error404">
+  <Page bodyClass="error404" title="Page non trouvée">
     <section className="banner">
       <div className="banner__text">
         <p className="banner__subtitle mtl">Allo houston !</p>

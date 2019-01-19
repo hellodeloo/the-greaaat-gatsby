@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Page from '../components/Page'
 
 export default () => (
-  <Page bodyClass="home">
+  <Page bodyClass="home" title="Greaaat">
     <section>
       <div className="banner">
         <div className="wrapper">

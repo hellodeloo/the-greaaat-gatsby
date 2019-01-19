@@ -5,7 +5,7 @@ import Page from './Page'
 import NavFreelance from './NavFreelance'
 
 export default ({ freelance, content }) => (
-  <Page bodyClass="single-freelances">
+  <Page bodyClass="single-freelances" title={freelance.seoTitle} description={freelance.seoDescription}>
     <NavFreelance />
 
     <div className="wrapper">

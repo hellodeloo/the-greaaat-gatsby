@@ -11,7 +11,7 @@ export default function Template({ data: { markdownRemark } }) {
   const freelances = shuffle(frontmatter.freelances);
 
   return (
-    <Page bodyClass='freelances'>
+    <Page bodyClass="freelances" title={frontmatter.title}>
 
       <NavFreelance current={frontmatter.slug} />
 

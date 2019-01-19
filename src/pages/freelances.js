@@ -10,7 +10,7 @@ export default ({ data: { allMarkdownRemark: { edges }}}) => {
   const freelances = shuffle(edges)
 
   return (
-    <Page bodyClass='freelances'>
+    <Page bodyClass="freelances" title="Les freelances">
 
       <NavFreelance />
 

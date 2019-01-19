@@ -4,9 +4,9 @@ import { graphql } from "gatsby"
 import Freelance from '../components/Freelance'
 
 export default function Template({ data: { markdownRemark } }) {
-  const { frontmatter: f, html } = markdownRemark
+  const { frontmatter, html } = markdownRemark
 
-  return <Freelance freelance={f} content={html} />
+  return <Freelance freelance={frontmatter} content={html} />
 }
 
 export const pageQuery = graphql`

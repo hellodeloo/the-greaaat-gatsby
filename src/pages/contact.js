@@ -3,7 +3,7 @@ import React from 'react'
 import Page from '../components/Page'
 
 export default () => (
-  <Page bodyClass='contact' subFooter={false}>
+  <Page bodyClass='contact' subFooter={false} title="Contactez-nous">
     <div className="banner banner--big">
       <div className="wrapper">
         <p className="banner__subtitle">Envie de travailler avec nous ?</p>
