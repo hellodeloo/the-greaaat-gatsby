@@ -65,12 +65,6 @@ export default () => (
             </label>
           </div>
 
-          <div className="form-row">
-            <label>Pièce jointe
-              <input type="file" name="attachment" />
-            </label>
-          </div>
-
           <div data-netlify-recaptcha="true"></div>
 
           <div className="form-row-last">
