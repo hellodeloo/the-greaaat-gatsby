@@ -1,7 +1,7 @@
 ---
 title: Formateurs
 slug: formateurs
-freelances:
+freelances: [ "Adrian Tombu", "Alexandre Fouché", "Régis Millet" ]
 ---
 
 Les formateurs font des trucs super cools !

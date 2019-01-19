@@ -3,14 +3,14 @@ import { Link } from 'gatsby'
 
 export default ({ current }) => (
   <ul className="nav-freelance">
+    <li className={getClasses(current, 'admin-sys-devops')}>
+      <Link to="/prestation/admin-sys-devops">Admin Sys &amp; DevOps</Link>
+    </li>
     <li className={getClasses(current, 'designers-creatifs')}>
       <Link to="/prestation/designers-creatifs">Designers &amp; Creatifs</Link>
     </li>
-    <li className={getClasses(current, 'developpeurs-mobile')}>
-      <Link to="/prestation/developpeurs-mobile">Développeurs mobile</Link>
-    </li>
-    <li className={getClasses(current, 'developpeurs-web')}>
-      <Link to="/prestation/developpeurs-web">Développeurs web</Link>
+    <li className={getClasses(current, 'developpeurs')}>
+      <Link to="/prestation/developpeurs">Développeurs</Link>
     </li>
     <li className={getClasses(current, 'experts-marketing')}>
       <Link to="/prestation/experts-marketing">Expert marketing</Link>

@@ -21,5 +21,8 @@ module.exports = {
       }
     },
     'gatsby-transformer-remark'
-  ]
+  ],
+  mapping: {
+    "MarkdownRemark.frontmatter.freelances": `MarkdownRemark.frontmatter.title`,
+  },
 }
