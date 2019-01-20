@@ -919,9 +919,16 @@ tbody tr:nth-child(even) {
 
 @media (max-width:40em) {
   .nav {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.15s ease-out;
     padding-left: 0;
     background: #231c25
+  }
+
+  .nav.nav__displayed {
+    max-height: 267px;
+    transition: max-height 0.25s ease-in;
   }
 }
 
