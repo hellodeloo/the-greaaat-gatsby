@@ -1196,6 +1196,10 @@ tbody tr:nth-child(even) {
   background: url(../img/404.jpg) center/100% auto no-repeat fixed
 }
 
+.home .banner {
+  height: calc(100vh - 90px);
+}
+
 .count {
   max-width: 50em;
   margin: 2.15625em auto
