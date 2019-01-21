@@ -1204,6 +1204,8 @@ tbody tr:nth-child(even) {
 }
 
 .home .banner {
+  display: flex;
+  align-items: center;
   height: calc(100vh - 90px);
 }
 
