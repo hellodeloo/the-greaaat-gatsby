@@ -50,7 +50,7 @@ export default () => (
               </svg>
               Designer
             </h3>
-            <p className="skills__legend">Ui designer, direction artistique, webdesign, design d'application mobile, charte graphique, logotype…</p>
+            <p className="skills__legend">UI designer, direction artistique, webdesign, design d'application mobile, charte graphique, logotype…</p>
           </li>
 
           <li className="skills__item">
@@ -63,7 +63,17 @@ export default () => (
               </svg>
               Développeur web
             </h3>
-            <p className="skills__legend">Développeur Front-end / PHP / Ruby On Rails / Drupal / WordPress</p>
+            <p className="skills__legend">Développeur Front-end, PHP, Ruby On Rails, Drupal, WordPress</p>
+          </li>
+
+          <li className="skills__item">
+          	<h3 className="title-small">
+          	  <svg className="icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 31">
+          	    <path d="m141.663001 6.485h-10.612412c-1.10793 0-2.005589.89799952-2.005589 2.00558907v25.98882183c0 1.1075896.897659 2.0055891 2.005589 2.0055891h10.612753c1.10793 0 2.005589-.8979995 2.005589-2.0055891v-25.98848104c-.000341-1.10793034-.898-2.00592986-2.00593-2.00592986zm.955935 27.6283952c0 .7528201-.610367 1.3631871-1.363187 1.3631871h-9.815288c-.752821 0-1.363188-.610367-1.363188-1.3631871v-25.3716389c0-.7528201.610367-1.36318714 1.363188-1.36318714h1.32161c.062365.0957639.057253.24980405.057253.34522715 0 .14620182.208568.51528473.554477.55720274.327165.03953242 2.830999.00408956 3.087619.00034079.256279.00374877 2.759772.03919163 3.087959-.00034079.345227-.04191801.553795-.41100092.553795-.55720274 0-.0954231-.004771-.24946325.057254-.34522715h1.095662c.75282 0 1.363187.61036704 1.363187 1.36318714v25.3716389z" fill="#6f5b76" transform="translate(-129 -6)" />
+          	  </svg>
+          	  Développeur mobile
+          	</h3>
+          	<p className="skills__legend">iOS (Swift/Objective-C), Android (Java/Kotlin), React Native, Flutter</p>
           </li>
 
           <li className="skills__item">
@@ -111,7 +121,7 @@ export default () => (
               </svg>
               Formateur
             </h3>
-            <p className="skills__legend">Formateur indépendant, html5/CSS3, jQuery, Responsive web design, WordPress, Ruby On Rails</p>
+            <p className="skills__legend">Formateur indépendant, HTML5/CSS3, jQuery, Responsive web design, WordPress, Ruby On Rails</p>
           </li>
         </ul>
       </div>

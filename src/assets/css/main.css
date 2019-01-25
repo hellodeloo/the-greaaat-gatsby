@@ -1353,6 +1353,10 @@ tbody tr:nth-child(even) {
   background: #fafafa
 }
 
+.skills__item .title-small {
+  font-size: 1.35em;
+}
+
 .no-flexbox .skills__item {
   display: inline-block;
   vertical-align: top
