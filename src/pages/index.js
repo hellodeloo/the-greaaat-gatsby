@@ -50,7 +50,7 @@ export default () => (
               </svg>
               Designer
             </h3>
-            <p className="skills__legend">Ui designer, direction artistique, webdesign, design d'application mobile, charte graphique, logotype…</p>
+            <p className="skills__legend">UI designer, direction artistique, webdesign, design d'application mobile, charte graphique, logotype…</p>
           </li>
 
           <li className="skills__item">
@@ -63,7 +63,7 @@ export default () => (
               </svg>
               Développeur web
             </h3>
-            <p className="skills__legend">Développeur Front-end / PHP / Ruby On Rails / Drupal / WordPress</p>
+            <p className="skills__legend">Développeur Front-end, PHP, Ruby On Rails, Drupal, WordPress</p>
           </li>
 
           <li className="skills__item">
@@ -121,7 +121,7 @@ export default () => (
               </svg>
               Formateur
             </h3>
-            <p className="skills__legend">Formateur indépendant, html5/CSS3, jQuery, Responsive web design, WordPress, Ruby On Rails</p>
+            <p className="skills__legend">Formateur indépendant, HTML5/CSS3, jQuery, Responsive web design, WordPress, Ruby On Rails</p>
           </li>
         </ul>
       </div>
